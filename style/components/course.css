@@ -7,13 +7,13 @@
 }
 .course--grid {
 	width: 100%;
-	padding: 0 13%;
+	padding: 0 10%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
 .course--item {
-	width: 270px;
+	width: 310px;
 }
 .course--item--img {
 	width: 100%;
@@ -24,7 +24,7 @@
 	margin-bottom: 20px;
 }
 .course--item--img img {
-	width: 50%;
+	width: 40%;
 	padding: 13%;
 	background-color: #59ecc9;
     border-radius: 50%;
