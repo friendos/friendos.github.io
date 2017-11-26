@@ -1,0 +1,23 @@
+.btn {
+	width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+
+
+}
+.btn__home {
+color: #fff;
+background-color: #5defc9;
+border-radius: 5px;
+    padding: 10px 0;
+}
+.btn__next {
+	color: #fff;
+	background-color: #ff5856;
+	border-radius: 5px;
+	padding: 15px 0;
+}
