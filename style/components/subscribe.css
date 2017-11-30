@@ -1,0 +1,18 @@
+.subscribe {
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	background-color: #233537;
+}
+.subscribe--title {
+	margin: 50px 0 30px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+.subscribe--btn {
+	width: 120px;
+	height: 30px;
+	margin-bottom: 80px;
+}

@@ -1,0 +1,34 @@
+.numbers {
+	width: 100%;
+	background-color: #233537;
+	padding: 40px 25%;
+	display: flex;
+	 flex-flow: row wrap;
+	 justify-content: space-between;
+}
+.numbers--item {
+   width: 100px;
+   margin: 0 auto;
+}
+.numbers--img {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+
+}
+.numbers--img img {
+    width: 100%;
+	height: 100%;
+
+}
+.numbers--title {
+   margin: 20px 0;
+   text-align: center;
+   font-size: 20px;
+   color: #fff;
+}
+.numbers--desc {
+  margin: 0 0 20px;
+  text-align: center;
+  color: #11c0ae;
+}

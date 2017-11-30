@@ -1,0 +1,47 @@
+.realize {
+	width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #ff4b57;
+    padding-top: 60px;
+}
+.realize--icon {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: #fff;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+	background-color: #233537;
+}
+.realize--title {
+	margin: 10px 0 20px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600px;
+}
+.realize--author {
+	color:#fff;
+	font-size: 13px;
+
+}
+.realize--arrow {
+	display: flex;
+	margin: 40px 0 60px;
+}
+.realize--arrow--item {
+   width: 30px;
+   height: 30px;
+   background-color: #fff;
+   color: red;
+   font-size: 26px;
+   margin: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+}
+

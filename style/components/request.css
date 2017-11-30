@@ -1,0 +1,40 @@
+.request {
+	width: 100%;
+	display: flex;
+    flex-flow: column wrap;
+    padding: 50px 70px;
+    background-color: #ff4057;
+}
+.request--title {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+	color: #fff;
+}
+.request--desc {
+	width: 100%;
+	padding: 0 25%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	margin: 20px 0 40px;
+	font-size: 12px;
+ }
+ .request--form {
+ 	width: 100%;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	margin: 40px 0 ;
+ 	padding: 0 20%;
+ 	background-color: rgba(255,255,255, 0);
+
+ }
+ .request--form--field {
+     width: 350px;
+     border: 1px solid #fff; 
+     background-color: rgba(255,255,255, 0);
+ }

@@ -1,25 +1,28 @@
 .desktop {
 	width: 100%;
+	padding: 60px 0 0;
 	background: linear-gradient(to bottom, #ff6754, #ff2c59);
 	display: flex;
 	flex-flow: column wrap;
 }
     .desktop--header {
-	   margin: 80px 0;
 	   width: 100%;
-	   text-align: center;
-	   color: #fff;
+	   text-align: center;	
+	   margin-bottom: 30px;
+	 
      }
           .desktop--title {
 	         width: 100%;
 	         text-align: center;
 	         font-size: 24px;
 	         font-weight: 400;
+	           color: #fff;
            }
           .desktop--desc {
 	        width: 100%;
 	        padding: 20px 30%;
 	        text-align: center;
+	          color: #e9fcf8;
             }
     .desktop--screen {
 	    width: 100%;

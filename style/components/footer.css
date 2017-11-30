@@ -1,0 +1,17 @@
+.footer {
+	width: 100%;
+	background-color: #233537;
+	padding: 50px 0;
+}
+.footer--text {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+.footer--zoom {
+	 color: #10cab7;
+	 margin: 0 3px;
+}
