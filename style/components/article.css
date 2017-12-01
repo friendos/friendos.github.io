@@ -28,15 +28,7 @@
 	color: #929ba0;
 }
 
-@media screen and (max-width: 1023px) {
-      .article--text {
-      	margin: 20px 0px 0px;
-      }
-      .article--title {
-      	text-align: center;
-      	font-weight: 660px;
-      }
-}
+
 	
 @media screen and (max-width: 768px) {
    
@@ -53,10 +45,7 @@
       	margin: 20px 0px 0px;
       	padding: 0px 10px 0px;
       }
-      .article--title {
-      	text-align: center;
-      	font-weight: 660px;
-      }
+     
       .article--img {
       	width: 410px;
       	height: 190px;
@@ -65,6 +54,7 @@
 @media screen and (max-width: 449px) {
       .article--text {
       	margin: 20px 0px 0px;
+      	margin-left: 30px;
       }
  
       .article--img {
