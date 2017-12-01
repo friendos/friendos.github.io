@@ -1,21 +1,20 @@
 .article {
 	width: 100%;
-	padding: 60px 10%;
+	padding: 60px 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
     
 }
 .article--img {
-	width: 500px;
-	height: 250px;
+	width:  450px;
+	height: 210px;
 	background-color:#232e3d;
 
 }
 .article--text {
-     width:  480px;
-
-    margin-top: 20px;
+     width:  430px;
+     margin-top: 20px;
     margin-left: 30px;
 }
 .article--title {
@@ -27,4 +26,49 @@
 .article--desc {
 	font-size: 16px;
 	color: #929ba0;
+}
+
+@media screen and (max-width: 1023px) {
+      .article--text {
+      	margin: 20px 0px 0px;
+      }
+      .article--title {
+      	text-align: center;
+      	font-weight: 660px;
+      }
+}
+	
+@media screen and (max-width: 768px) {
+   
+      .article--desc {
+      	font-size: 15px;
+      }
+      .article--img {
+      	width: 410px;
+      	height: 190px;
+      }
+}
+@media screen and (max-width: 768px) {
+      .article--text {
+      	margin: 20px 0px 0px;
+      	padding: 0px 10px 0px;
+      }
+      .article--title {
+      	text-align: center;
+      	font-weight: 660px;
+      }
+      .article--img {
+      	width: 410px;
+      	height: 190px;
+      }
+}
+@media screen and (max-width: 449px) {
+      .article--text {
+      	margin: 20px 0px 0px;
+      }
+ 
+      .article--img {
+      	width: 280px;
+      	height: 110px;
+      }
 }

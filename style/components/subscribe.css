@@ -16,3 +16,19 @@
 	height: 30px;
 	margin-bottom: 80px;
 }
+@media screen and (max-width:768px ) {
+	.subscribe--title {
+	  font-size: 16px;
+	  font-weight: 550;
+	}
+}
+@media screen and (max-width:449px ) {
+	.subscribe--title {
+		width: 100%;
+		text-align: center;
+		padding: 0 15px;
+	  font-size: 16px;
+	  font-weight: 550;
+	  line-height: 1.4;
+	}
+}

@@ -20,3 +20,11 @@
 .contact--contacts--row {
 	margin: 15px;
 }
+  @media screen and (max-width: 767px) {
+      .contact {
+      	justify-content: center;
+      }
+      .contact--contacts {
+      	margin-right: 0px;
+      }
+  	}

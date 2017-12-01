@@ -9,7 +9,7 @@
 
 .responsive--img {
 	width: 330px;
-	height: 330px;
+	height: 300px;
 	position: relative;
 	top: 80px;
    
@@ -22,7 +22,7 @@
  
 }
 .responsive--text {
-	width: 600px;
+	width: 450px;
 	margin-top: 70px;
 
 	display: flex;
@@ -43,4 +43,21 @@
 	font-size: 12px;
 	width: 100%;
 
+}
+@media screen and (max-width: 1023px) {
+	.responsive--img {
+		top:0px;
+	}
+.responsive--text {
+ margin-top: 10px;
+}
+.responsive--title  {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 600;
+}
+.responsive--subtitle {
+	text-align: center;
+	font-size: 18px;
+}
 }

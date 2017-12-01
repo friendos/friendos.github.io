@@ -1,4 +1,21 @@
 .input {
 	width: 100%;
-	
+	padding: 10px 15px;
+	outline: none;
 }
+
+.input__form {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.input__without-border {
+	border-left: none;
+	border-right: none;
+}
+
+/*.input:focus >  {
+	border: 1px solid green;
+}
+*/
