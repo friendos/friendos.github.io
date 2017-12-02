@@ -9,26 +9,27 @@
 <body>
 <section class="header" id="header">
 	<div class="header--logo"><img src="images/xbox.svg"/></div>
-	<nav class="header--nav">
-		<div class="nav--link">
+	<nav class="header--nav" id="nav">
+		<div class="nav--link" onclick="scrollWindow('intro')">
 		   <button class="btn btn__home">HOME</button>
+       <a href="#" id="link">HOME</a>
 		</div>
-		<div class="nav--link">
+		<div class="nav--link" onclick="scrollWindow('course)" > 
 		    <a href="#">SERVICES</a>
 		</div>
-		<div class="nav--link">
+		<div class="nav--link" onclick="scrollWindow('portfolio')">
 		   <a href="#">PORTFOLIO</a>
 		</div>
-		<div class="nav--link">
+		<div class="nav--link" onclick="scrollWindow('about')">
 		   <a href="#">ABOUT</a>
 		</div>
-		<div class="nav--link">
+		<div class="nav--link" onclick="scrollWindow('contact')">
 		   <a href="#">CONTACT</a>
 		</div>
 	</nav>
-  <div class="header--menu"><img src="images/widgets/menu-button.svg"/></div>
+  <div class="header--menu"onclick="toggleMenu();"><img src="images/widgets/menu-button.svg"/></div>
 </section>
-<section class="intro" id="header">
+<section class="intro" id="intro">
 	<div class="intro--title">Try Design, You'll Like It.</div>
 	<div class="intro--button">
 		<button class="btn btn__next">SHOW ME THEN!!!!</button>
@@ -106,7 +107,7 @@
     </div>
  	</div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="desktop--header">
      <div class="desktop--title">The Design That Likes To Say Yes</div>
      <div class="desktop--desc">
@@ -198,7 +199,7 @@
     <div class="numbers--title">427</div>
     <div class="numbers--desc">COMPILANCE</div></div>
 </section>
-<section class="about">
+<section class="about" id="about">
   <div class="about--header">
     <div class="about--title">Behold the Power of Team</div>
     <div class="about--desc">Lorem Ipsum Dolor sit Donec durum matricone. Calcone sara
@@ -325,7 +326,7 @@
     </fieldset>
    </form>
 </section>
-<section class="contact">
+<section class="contact" id="contact">
   <div class="contact--contacts">
     <div>Awesome Address 432</div>
     <div class="contact--contacts--row">somemail@somemail.com</div>
@@ -336,6 +337,8 @@
   <div class="footer--text">2017<span class="footer--zoom">Zoom</span> All Right Reserved</div>
 </footer>
 </body>
+<script src="js/menu.js"></script>
+<script src="js/scroll.js"></script>
 
 </html>
 <!--

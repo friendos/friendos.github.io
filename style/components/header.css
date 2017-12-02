@@ -47,6 +47,9 @@
     .nav--link a:hover {
       color:#59ebca;
     }
+    #link {
+      display: none;
+    }
     .nav--link a:active {
  width: 100%;
     font-size: 14px;
@@ -83,9 +86,38 @@ border-radius: 5px;
   }
   .header--menu {
     display: block;
+    position: absolute;
+    right: 5px;
+  }
+  .header--nav {
+    display: none;
+    position: absolute;
+    width: 150px;
+    right:10px;
+    top:70px;
+    background: #fff;
+  }
+  .nav--link .btn {
+    display: none;
+  }
+  #link {
+    display: flex;
   }
 }
-
+@media screen and (min-width: 768px) {
+.nav--link {
+  display: flex;
+}
+ .nav--link .btn {
+  display: flex;
+ }
+ #link {
+  display: none
+ }
+ .header--menu {
+  display: none;
+ }
+}
 @media screen and (max-width: 449px) {
   .intro--title {
    text-align: center;
