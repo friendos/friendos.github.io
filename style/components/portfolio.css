@@ -64,3 +64,10 @@
 		font-size: 12px;
 	}
 }
+.portfolio--down {
+	cursor: pointer;
+}
+.portfolio--nav--item:hover {
+   color: #fff;
+   cursor: pointer;
+}

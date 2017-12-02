@@ -174,7 +174,7 @@
             </div>
           </div>
   </div>
-  <div class="portfolio--down">
+  <div class="portfolio--down" id="portfolio--down" onclick="downFromPortfolio('portfolio--down', 'numbers--item')">
     <img src="images/widgets/down-arrow.svg"/>
   </div>
 </section>
@@ -184,7 +184,7 @@
     <div class="numbers--title">2093</div>
     <div class="numbers--desc">COMPILANCE</div>
   </div>
-  <div class="numbers--item">
+  <div class="numbers--item" id="numbers--item">
     <div class="numbers--img"><img src="images/widgets/mouse.svg"/></div>
     <div class="numbers--title">9 134 835</div>
     <div class="numbers--desc">COMPILANCE</div>
@@ -309,15 +309,15 @@
   <div class="request--title">Contact Us</div>
   <div class="request--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet consectetur urna. Maecenas imperdiet aliquam sem.</div>
     <form class="form form__request">
-    <fieldset class="form--field field__half">
+    <fieldset class="form--field field__half" id="field__half--first" onclick="clear('field__half--first');">
       <div>Your mail here</div>
       <input class="input input__form" type="text">
     </fieldset>
-    <fieldset class="form--field field__half">
+    <fieldset class="form--field field__half" id="field__half--second" onclick="clear()">
       <div>Your mail here</div>
       <input class="input input__form input__without-border" type="text">
     </fieldset>
-    <fieldset class="form--field">
+    <fieldset class="form--field" id="form--field--full" onclick="clear('form--field--full');">
       <div>Your mail here</div>
       <input class="input input__form " type="text">
     </fieldset>
@@ -339,7 +339,8 @@
 </body>
 <script src="js/menu.js"></script>
 <script src="js/scroll.js"></script>
-
+<script src="js/downFromPortfolio.js"></script>
+<script src="js/clear.js"></script>
 </html>
 <!--
 2500 - 1680 

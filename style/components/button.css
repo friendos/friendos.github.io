@@ -27,6 +27,11 @@ border-radius: 5px;
     background-color:#233537;
     padding: 10px 0;
 }
+.btn__subscribe:hover {
+     color: #000;
+    background-color:#70d8af;
+    cursor: pointer;
+}
 .btn__form {
     color: #fff;
     width: 150px;
@@ -35,4 +40,12 @@ border-radius: 5px;
     padding: 10px 0;
     position: absolute;
     right: 0;
+}
+.btn__next:hover {
+    background-color: #ff1e1b;
+    cursor: pointer;
+}
+.btn__form:hover {
+    background-color: #182122;
+    cursor: pointer;
 }
